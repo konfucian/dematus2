@@ -1,0 +1,39 @@
+.todo-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+todo-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.todo-list li.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.add-todo {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.add-todo input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.add-todo button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.add-todo button:hover {
+    background-color: #218838;
+}
